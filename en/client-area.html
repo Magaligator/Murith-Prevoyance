@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Client area — Murith Prévoyance</title>
+<meta name="description" content="Your contract, your payments, your wishes and your documents.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="alternate" hreflang="fr" href="../espace-client.html">
+<link rel="alternate" hreflang="en" href="client-area.html">
+<link rel="icon" type="image/png" href="../assets/signe.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-acct="dash" data-login="my-account.html">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 5.6a5.2 5.2 0 0 0-7.4 0L12 7l-1.4-1.4a5.2 5.2 0 0 0-7.4 7.4L12 21.8l8.8-8.8a5.2 5.2 0 0 0 0-7.4Z"/></symbol>
+    <symbol id="i-feather" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.2 3.8c-5.5-1-11 1.6-12.8 6.9L5 18l7.3-2.4c5.3-1.8 7.9-7.3 6.9-12.8"/><path d="M5 21l6-6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0 0 4h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5"/><path d="M16 14h.01"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="3"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20M6 15h4"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-hands" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17l2 2a1.4 1.4 0 0 0 2-2"/><path d="m14 14 2.5 2.5a1.4 1.4 0 0 0 2-2l-3.9-3.9a2 2 0 0 0-2.8 0l-.9.9a1.4 1.4 0 0 1-2-2l2.7-2.7a4.5 4.5 0 0 1 5.3-.7L18 6.5"/><path d="M21 15V6h-2.5M3 16V5h8"/><path d="m4 17 2.5 2.5a1.4 1.4 0 0 0 2-2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></symbol>
+  
+<symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-8 9 8M5 10v10h14V10"/></symbol>
+<symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5ZM14 3v5h5M9 13h6M9 17h6"/></symbol>
+<symbol id="i-message" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 20h16"/></symbol>
+<symbol id="i-logout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol></defs>
+</svg>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="tb-left">
+      <a href="tel:+41228095600"><svg aria-hidden="true"><use href="#i-phone"/></svg>+41 22 809 56 00</a>
+      <span class="tb-item"><svg aria-hidden="true"><use href="#i-pin"/></svg>Boulevard de la Cluse 89, 1205 Geneva</span>
+      <a class="tb-extra" href="https://www.murith.ch">Murith funeral directors&nbsp;↗</a>
+    </div>
+    <div class="lang" aria-label="Language"><a href="../espace-client.html" hreflang="fr" lang="fr">FR</a><a href="client-area.html" aria-current="true" lang="en">EN</a></div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Murith Prévoyance — home"><img src="../assets/logo-full.png" alt="Murith Prévoyance" width="157" height="46"></a>
+    <nav class="main" id="menu" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub"><a href="plan-your-funeral.html">Funeral planning</a><button class="sub-toggle" type="button" aria-expanded="false" aria-label="Show submenu"><svg><use href="#i-chev"/></svg></button><ul class="sub">
+            <li><a href="plan-your-funeral.html">My funeral<small>Relieve your loved ones, have your wishes respected</small></a></li>
+            <li><a href="guarantees.html">Our guarantees<small>A family house for over 130 years</small></a></li>
+            <li><a href="payment-options.html">Payment options<small>Single payment or instalments</small></a></li>
+          </ul></li>
+        <li><a href="questionnaire.html">Questionnaire</a></li>
+        <li><a href="practical-info.html">Practical info</a></li>
+      </ul>
+    </nav>
+    <div class="head-cta">
+      <a class="btn btn-line" href="tel:+41228095600" aria-label="Call +41 22 809 56 00"><svg><use href="#i-phone"/></svg><span class="sr">Call</span></a>
+      <a class="btn btn-line" href="my-account.html" data-account="client-area.html" aria-label="My account"><svg><use href="#i-user"/></svg><span class="sr">My account</span></a>
+      <a class="btn btn-red" href="contact.html">Book an appointment</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="acct">
+  <div class="wrap">
+    <div class="demo-note" role="note" style="margin:0 0 24px"><svg><use href="#i-info"/></svg><span>Demo mode: all data in this area is fictitious and changes stay in your browser.</span></div>
+    <div class="acct-grid">
+      <aside class="acct-side">
+        <div class="acct-user"><span class="avatar" aria-hidden="true">CM</span><div><b>Claire Martin</b><small>Contract no. MP-2026-00123</small></div></div>
+        <nav class="acct-nav" aria-label="Client area">
+          <a href="#overview" aria-current="true"><svg><use href="#i-home"/></svg>Overview</a>
+          <a href="#contract" aria-current="false"><svg><use href="#i-card"/></svg>My contract</a>
+          <a href="#payments" aria-current="false"><svg><use href="#i-wallet"/></svg>My payments</a>
+          <a href="#wishes" aria-current="false"><svg><use href="#i-feather"/></svg>My wishes</a>
+          <a href="#profile" aria-current="false"><svg><use href="#i-user"/></svg>My information</a>
+          <a href="#documents" aria-current="false"><svg><use href="#i-file"/></svg>My documents</a>
+          <a href="#messages" aria-current="false"><svg><use href="#i-message"/></svg>My advisor</a>
+        </nav>
+        <button type="button" class="btn btn-line acct-out" data-logout><svg><use href="#i-logout"/></svg>Log out</button>
+      </aside>
+
+      <div class="acct-main">
+
+        <!-- VUE D'ENSEMBLE -->
+        <div class="panel" id="overview">
+          <h2>Hello <b>Claire</b></h2>
+          <p class="sub">Here is the status of your funeral plan contract.</p>
+          <div class="kpis">
+            <div class="kpi"><small>Contract</small><strong>MP-2026-00123</strong><span class="n"><span class="status">Active</span></span></div>
+            <div class="kpi"><small>Paid so far</small><strong>CHF 3’200.00</strong><span class="n">out of CHF 4’800.00 in total</span></div>
+            <div class="kpi"><small>Next payment</small><strong>CHF 400.00</strong><span class="n">on 15 Oct 2026</span></div>
+          </div>
+          <div class="cards2">
+            <div class="box">
+              <h3>Your financing</h3>
+              <p>Instalment payment in 12 monthly payments.</p>
+              <div class="prog">
+                <div class="ring" role="img" aria-label="67% of the contract is funded"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="#F1F1F1" stroke-width="12"/><circle cx="60" cy="60" r="52" fill="none" stroke="#D13242" stroke-width="12" stroke-linecap="round" stroke-dasharray="218 327"/></svg><b>67%</b></div>
+                <dl><div><dt>Payments made</dt><dd>8 of 12</dd></div><div><dt>Remaining balance</dt><dd>CHF 1’600.00</dd></div><div><dt>Planned end</dt><dd>15 Jan 2027</dd></div></dl>
+              </div>
+              <div class="tools"><a class="btn btn-dark" href="#payments">See my payments</a></div>
+            </div>
+            <div class="box">
+              <h3>Your contract card</h3>
+              <p>To be presented by your loved ones when the time comes.</p>
+              <div class="mcard" style="margin-top:16px"><div class="top"><small>Funeral plan card</small></div><div><div class="no">MP-2026-00123</div><div class="nm" style="margin-top:8px">Claire Martin</div></div></div>
+              <div class="tools"><button type="button" class="btn btn-line" data-toast="Mock-up: the card cannot be downloaded in this demo."><svg><use href="#i-download"/></svg>Download the card</button></div>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="box">
+              <h3>Your file</h3>
+              <ul class="checks">
+                <li><span class="d"><svg><use href="#i-check"/></svg></span>Contract signed</li>
+                <li><span class="d"><svg><use href="#i-check"/></svg></span>First payment received</li>
+                <li><span class="d"><svg><use href="#i-check"/></svg></span>Wishes recorded</li>
+                <li><span class="d t"><svg><use href="#i-plus"/></svg></span><span>Add at least 2 people to inform — <a href="#wishes">complete</a></span></li>
+              </ul>
+            </div>
+            <div class="box">
+              <h3>Your advisor</h3>
+              <p>A question about your contract? We are here.</p>
+              <div class="adv"><span class="ico"><svg><use href="#i-phone"/></svg></span><div><b>+41 22 809 56 00</b><a href="#messages">Write a message</a></div></div>
+              <div class="adv"><span class="ico"><svg><use href="#i-pin"/></svg></span><div><b>Boulevard de la Cluse 89</b><span style="color:var(--gray-700)">1205 Geneva</span></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTRAT -->
+        <div class="panel" id="contract" hidden>
+          <h2>My <b>contract</b></h2>
+          <p class="sub">The summary of your funeral plan contract.</p>
+          <div class="cards2">
+            <div class="box">
+              <h3>Contract details</h3>
+              <dl class="dl">
+                <div><dt>Contract number</dt><dd>MP-2026-00123</dd></div>
+                <div><dt>Holder</dt><dd>Claire Martin</dd></div>
+                <div><dt>Status</dt><dd><span class="status">Active</span></dd></div>
+                <div><dt>Package</dt><dd>Special requests</dd></div>
+                <div><dt>Date signed</dt><dd>15 Feb 2026</dd></div>
+                <div><dt>Financing</dt><dd>Instalments</dd></div>
+                <div><dt>Total amount guaranteed</dt><dd>CHF 4’800.00</dd></div>
+              </dl>
+            </div>
+            <div class="box">
+              <h3>Contract card</h3>
+              <p>It bears your contract number, so your loved ones know who to call.</p>
+              <div class="mcard" style="margin-top:16px"><div class="top"><small>Funeral plan card</small></div><div><div class="no">MP-2026-00123</div><div class="nm" style="margin-top:8px">Claire Martin</div></div></div>
+              <div class="tools"><button type="button" class="btn btn-line" data-toast="Mock-up: the card cannot be downloaded in this demo."><svg><use href="#i-download"/></svg>Download the card</button></div>
+            </div>
+          </div>
+          <div class="info-line"><svg><use href="#i-info"/></svg><span>With instalment payment, the total amount of services is guaranteed.</span></div>
+        </div>
+
+        <!-- PAIEMENTS -->
+        <div class="panel" id="payments" hidden>
+          <h2>My <b>payments</b></h2>
+          <p class="sub">Follow your payments and the remaining balance on your contract.</p>
+          <div class="kpis">
+            <div class="kpi"><small>Contract total</small><strong>CHF 4’800.00</strong><span class="n">12 payments of CHF 400.00</span></div>
+            <div class="kpi"><small>Paid so far</small><strong>CHF 3’200.00</strong><span class="n">8 payments</span></div>
+            <div class="kpi"><small>Remaining balance</small><strong>CHF 1’600.00</strong><span class="n">4 payments to come</span></div>
+          </div>
+          <div class="chips" role="group" aria-label="Filter payments">
+            <button type="button" class="chip-b" data-f="all" aria-pressed="true">All</button>
+            <button type="button" class="chip-b" data-f="paid" aria-pressed="false">Paid</button>
+            <button type="button" class="chip-b" data-f="due" aria-pressed="false">Upcoming</button>
+          </div>
+          <div class="tbl-wrap">
+            <table class="tbl" id="paytable">
+              <thead><tr><th>Date</th><th>Description</th><th>Method</th><th class="num">Amount</th><th>Status</th><th>Receipt</th></tr></thead>
+              <tbody>
+          <tr data-s="paid"><td>15 Feb 2026</td><td>Instalment 1 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 Mar 2026</td><td>Instalment 2 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 Apr 2026</td><td>Instalment 3 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 May 2026</td><td>Instalment 4 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 Jun 2026</td><td>Instalment 5 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 Jul 2026</td><td>Instalment 6 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 Aug 2026</td><td>Instalment 7 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="paid"><td>15 Sep 2026</td><td>Instalment 8 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status">Paid</span></td><td><button type="button" class="link-btn" data-toast="Mock-up: the receipt is not available in this demo.">Receipt</button></td></tr>
+          <tr data-s="due"><td>15 Oct 2026</td><td>Instalment 9 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status due">Upcoming</span></td><td>—</td></tr>
+          <tr data-s="due"><td>15 Nov 2026</td><td>Instalment 10 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status plan">Upcoming</span></td><td>—</td></tr>
+          <tr data-s="due"><td>15 Dec 2026</td><td>Instalment 11 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status plan">Upcoming</span></td><td>—</td></tr>
+          <tr data-s="due"><td>15 Jan 2027</td><td>Instalment 12 of 12</td><td>Bank transfer</td><td class="num">CHF 400.00</td><td><span class="status plan">Upcoming</span></td><td>—</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="info-line"><svg><use href="#i-info"/></svg><span>Please quote reference MP-2026-00123 on each of your transfers. If death occurs before the end of the payment term, the balance is claimed from the estate.</span></div>
+          <div class="tools">
+            <button type="button" class="btn btn-dark" data-toast="Mock-up: the certificate is not available in this demo."><svg><use href="#i-download"/></svg>Payment certificate</button>
+            <button type="button" class="btn btn-line" data-toast="Request recorded: an advisor will send you your tracking account. (Mock-up)">Request my tracking account</button>
+          </div>
+        </div>
+
+        <!-- VOLONTÉS -->
+        <div class="panel" id="wishes" hidden>
+          <h2>My <b>wishes</b></h2>
+          <p class="sub">Your wishes are recorded in your contract. You can change them at any time.</p>
+          <form class="box" id="wishform" data-save data-toast="Your wishes have been saved. (Mock-up)" style="margin-top:24px" novalidate>
+            <h3>Your arrangements</h3>
+            <div class="form-grid">
+              <div class="fld"><label for="w1">Package</label><select id="w1" name="formule"><option>Simple package</option><option selected>Special requests</option></select></div>
+              <div class="fld"><label for="w2">Type of burial</label><select id="w2" name="sepulture"><option>Burial</option><option selected>Cremation</option><option>To be decided with my loved ones</option></select></div>
+              <div class="fld"><label for="w3">Ceremony</label><select id="w3" name="ceremonie"><option>Religious</option><option selected>Civil</option><option>No ceremony</option></select></div>
+              <div class="fld"><label for="w4">Flowers</label><select id="w4" name="fleurs"><option selected>Flowers welcome</option><option>Donations to a charity</option><option>No flowers or donations</option></select></div>
+              <div class="fld full"><label for="w5">Music, readings and particular wishes</label><textarea id="w5" name="souhaits" rows="4">Gentle music on entry. A text read by my sister.</textarea></div>
+            </div>
+            <div class="tools"><button class="btn btn-red btn-sm" type="submit">Save my wishes</button></div>
+          </form>
+          <div class="box" style="margin-top:20px">
+            <h3>People to inform</h3>
+            <p>These people will be informed first when the time comes.</p>
+            <ul class="persons" id="persons" data-removed="Person removed from the list. (Mock-up)" data-added="Person added to the list. (Mock-up)" data-del-label="Remove this person">
+              <li><div><b>Paul Martin</b><br><small>Brother · +41 79 000 00 01</small></div><button type="button" class="icon-btn" data-del aria-label="Remove this person"><svg><use href="#i-trash"/></svg></button></li>
+            </ul>
+            <div class="add-person">
+              <div class="fld"><label for="pn">Last name</label><input id="pn" placeholder="First name Last name"></div>
+              <div class="fld"><label for="pr">Relationship</label><input id="pr" placeholder="Daughter, friend…"></div>
+              <div class="fld"><label for="pp">Telephone</label><input id="pp" type="tel" placeholder="+41 …"></div>
+              <button type="button" class="btn btn-dark btn-sm" id="addperson"><svg><use href="#i-plus"/></svg>Add</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- INFORMATIONS -->
+        <div class="panel" id="profile" hidden>
+          <h2>My <b>information</b></h2>
+          <p class="sub">Keep your contact details up to date so that we can reach you.</p>
+          <form class="box" id="profileform" data-save data-toast="Your information has been saved. (Mock-up)" style="margin-top:24px" novalidate>
+            <h3>Personal details</h3>
+            <div class="form-grid">
+              <div class="fld"><label for="p1">First name</label><input id="p1" name="prenom" value="Claire" autocomplete="given-name" required></div>
+              <div class="fld"><label for="p2">Last name</label><input id="p2" name="nom" value="Martin" autocomplete="family-name" required></div>
+              <div class="fld"><label for="p3">Date of birth</label><input id="p3" name="naissance" type="date" value="1958-04-12"></div>
+              <div class="fld"><label for="p4">Correspondence language</label><select id="p4" name="langue"><option selected>Français</option><option>English</option></select></div>
+              <div class="fld full"><label for="p5">Address</label><input id="p5" name="adresse" value="Rue de l’Exemple 1" autocomplete="street-address"></div>
+              <div class="fld"><label for="p6">Postcode</label><input id="p6" name="npa" value="1200" autocomplete="postal-code"></div>
+              <div class="fld"><label for="p7">City</label><input id="p7" name="localite" value="Genève" autocomplete="address-level2"></div>
+              <div class="fld"><label for="p8">Telephone</label><input id="p8" name="tel" type="tel" value="+41 79 000 00 00" autocomplete="tel"></div>
+              <div class="fld"><label for="p9">Email</label><input id="p9" name="email" type="email" value="claire.martin@exemple.ch" autocomplete="email" required></div>
+            </div>
+            <div class="tools"><button class="btn btn-red btn-sm" type="submit">Save</button></div>
+          </form>
+          <form class="box" id="pwform" data-save data-toast="Your password has been changed. (Mock-up)" style="margin-top:20px" novalidate>
+            <h3>Password</h3>
+            <div class="form-grid">
+              <div class="fld"><label for="pw1">New password</label><input id="pw1" name="pw1" type="password" autocomplete="new-password" minlength="8" required></div>
+              <div class="fld"><label for="pw2">Confirm</label><input id="pw2" name="pw2" type="password" autocomplete="new-password" minlength="8" required></div>
+            </div>
+            <div class="tools"><button class="btn btn-dark btn-sm" type="submit">Change password</button></div>
+          </form>
+        </div>
+
+        <!-- DOCUMENTS -->
+        <div class="panel" id="documents" hidden>
+          <h2>My <b>documents</b></h2>
+          <p class="sub">Find and download the documents linked to your contract.</p>
+          <div class="docs">
+            <div class="docrow"><div class="l"><span class="ico"><svg><use href="#i-file"/></svg></span><div><b>Funeral plan contract</b><small>PDF · signed on 15 Feb 2026</small></div></div><button type="button" class="btn btn-line btn-sm" data-toast="Mock-up: this document is not available in this demo."><svg><use href="#i-download"/></svg>Download</button></div>
+            <div class="docrow"><div class="l"><span class="ico"><svg><use href="#i-card"/></svg></span><div><b>Contract card</b><small>PDF · to be presented by your loved ones</small></div></div><button type="button" class="btn btn-line btn-sm" data-toast="Mock-up: this document is not available in this demo."><svg><use href="#i-download"/></svg>Download</button></div>
+            <div class="docrow"><div class="l"><span class="ico"><svg><use href="#i-wallet"/></svg></span><div><b>Payment certificate</b><small>PDF · updated on 15 Sep 2026</small></div></div><button type="button" class="btn btn-line btn-sm" data-toast="Mock-up: this document is not available in this demo."><svg><use href="#i-download"/></svg>Download</button></div>
+            <div class="docrow"><div class="l"><span class="ico"><svg><use href="#i-feather"/></svg></span><div><b>My wishes</b><small>PDF · editable at any time</small></div></div><button type="button" class="btn btn-line btn-sm" data-toast="Mock-up: this document is not available in this demo."><svg><use href="#i-download"/></svg>Download</button></div>
+            <div class="docrow"><div class="l"><span class="ico"><svg><use href="#i-file"/></svg></span><div><b>General terms</b><small>PDF</small></div></div><button type="button" class="btn btn-line btn-sm" data-toast="Mock-up: this document is not available in this demo."><svg><use href="#i-download"/></svg>Download</button></div>
+          </div>
+        </div>
+
+        <!-- CONSEILLER -->
+        <div class="panel" id="messages" hidden>
+          <h2>My <b>advisor</b></h2>
+          <p class="sub">Ask a question or request an appointment: we reply quickly.</p>
+          <div class="cards2">
+            <div class="box">
+              <h3>Get in touch</h3>
+              <div class="adv"><span class="ico"><svg><use href="#i-phone"/></svg></span><div><b><a href="tel:+41228095600" style="color:inherit">+41 22 809 56 00</a></b><span style="color:var(--gray-700)">By phone</span></div></div>
+              <div class="adv"><span class="ico"><svg><use href="#i-mail"/></svg></span><div><b><a href="mailto:murith@murith.ch" style="color:inherit">murith@murith.ch</a></b><span style="color:var(--gray-700)">By email</span></div></div>
+              <div class="adv"><span class="ico"><svg><use href="#i-pin"/></svg></span><div><b>Boulevard de la Cluse 89</b><span style="color:var(--gray-700)">1205 Geneva</span></div></div>
+              <div class="tools"><a class="btn btn-dark btn-sm" href="contact.html"><svg><use href="#i-calendar"/></svg>Book an appointment</a></div>
+            </div>
+            <form class="box" id="msgform" data-save data-me="You · just now" data-toast="Message sent to your advisor. (Mock-up)" novalidate>
+              <h3>Write a message</h3>
+              <div class="fld"><label for="m1">Subject</label><select id="m1" name="sujet"><option>Question about my contract</option><option>Change my wishes</option><option>My payments</option><option>Other</option></select></div>
+              <div class="fld"><label for="m2">Message</label><textarea id="m2" name="message" rows="4" required></textarea></div>
+              <div class="tools"><button class="btn btn-red btn-sm" type="submit">Send</button></div>
+            </form>
+          </div>
+          <div class="box" style="margin-top:20px">
+            <h3>Your exchanges</h3>
+            <div class="thread" id="thread">
+              <div class="msg"><small>Murith Prévoyance · 16 Feb 2026</small>Welcome to your personal area. Feel free to write to us with any question about your contract.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="logo" href="index.html"><img src="../assets/logo-full.png" alt="Murith Prévoyance" width="184" height="54"></a>
+        <p style="margin-top:18px;max-width:38ch">Funeral plan contract offered by the Murith firm, Geneva funeral directors run by the same family for over 130 years.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="plan-your-funeral.html">My funeral</a></li>
+          <li><a href="guarantees.html">Our guarantees</a></li>
+          <li><a href="payment-options.html">Payment options</a></li>
+          <li><a href="questionnaire.html">Questionnaire</a></li>
+          <li><a href="practical-info.html">Practical info</a></li>
+          <li><a href="my-account.html">My account</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Murith</h4>
+        <ul>
+          <li class="fi"><svg aria-hidden="true"><use href="#i-pin"/></svg><a href="https://www.google.com/maps/search/?api=1&query=Boulevard+de+la+Cluse+89+1205+Gen%C3%A8ve" target="_blank" rel="noopener">Boulevard de la Cluse 89<br>1205 Geneva</a></li>
+          <li class="fi"><svg aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+41228095600">+41 22 809 56 00</a></li>
+          <li class="fi"><svg aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:murith@murith.ch">murith@murith.ch</a></li>
+          <li><a href="https://www.murith.ch">murith.ch — Funeral directors&nbsp;↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© Murith Prévoyance — Geneva</span><a href="legal-notice.html">Legal notice</a></div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-line" href="tel:+41228095600"><svg><use href="#i-phone"/></svg>Call</a>
+  <a class="btn btn-red" href="questionnaire.html">Get a quote</a>
+</div>
+
+<script src="../assets/main.js"></script>
+<script src="../assets/account.js"></script>
+</body>
+</html>
